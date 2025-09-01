@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to Interactivity </h1>
+
+  <!-- Light/Dark Mode Toggle -->
+  <button id="toggle-theme"> Toggle Dark Mode</button>
+
+  <!-- Counter Game -->
+  <section>
+    <h2>🎮 Counter Game</h2>
+    <p id="counter-value">0</p>
+    <button id="increment-btn">➕ Increment</button>
+    <button id="reset-btn">🔄 Reset</button>
+  </section>
+
+  <!-- FAQ Section -->
+  <section>
+    <h2>❓ FAQ</h2>
+    <div class="faq">
+      <button class="faq-question">What is JavaScript?</button>
+      <p class="faq-answer">JavaScript is a programming language that makes web pages interactive.</p>
+    </div>
+    <div class="faq">
+      <button class="faq-question">Why learn JavaScript?</button>
+      <p class="faq-answer">Because it powers most of the interactive web and makes sites dynamic!</p>
+    </div>
+  </section>
+
+  <!-- Form Section -->
+  <section>
+    <h2>📋 Register Form</h2>
+    <form id="register-form">
+      <label>Name: <input type="text" id="name"></label><br>
+      <label>Email: <input type="text" id="email"></label><br>
+      <label>Password: <input type="password" id="password"></label><br>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
